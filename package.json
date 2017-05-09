@@ -1,0 +1,34 @@
+{
+  "name": "box-of-sand",
+  "version": "0.0.1",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack && webpack-dev-server --watch --inline --content-base dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robyntrovati/box-of-sand.git"
+  },
+  "author": "Robyn Trovati <robyntrovati@mac.com>",
+  "devDependencies": {
+    "babel-core": "6.18.0",
+    "babel-eslint": "7.1.0",
+    "babel-loader": "6.2.7",
+    "babel-plugin-istanbul": "2.0.3",
+    "babel-preset-latest": "6.16.0",
+    "babel-preset-stage-0": "6.16.0",
+    "eslint": "3.9.0",
+    "eslint-import-resolver-webpack": "0.6.0",
+    "eslint-loader": "^1.5.0",
+    "eslint-plugin-import": "2.0.1",
+    "copy-webpack-plugin": "^3.0.1",
+    "file-loader": "^0.9.0",
+    "html-webpack-plugin": "^2.26.0",
+    "webpack": "^1.13.2",
+    "webpack-dev-server": "^1.15.1"
+  },
+  "dependencies": {
+    "p5": "^0.5.3",
+    "babel-polyfill": "6.16.0"
+  }
+}
