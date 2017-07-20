@@ -1,2 +1,3 @@
 // Sketches to render
-// e.g. require('./js/sketches/gravity-sketch');
+
+require('./js/sketches/clifford-attractors');
